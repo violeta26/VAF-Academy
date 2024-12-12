@@ -1,0 +1,171 @@
+*{
+	font-family:Verdana, sans-serif;
+    margin:0px;
+    padding:0px;
+	box-sizing: border-box;
+}
+nav{
+	width:100%;
+	height:55px;
+	background-color:#02000a;
+	color: #ffffff;
+    display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:15px 50px;
+	z-index:1;
+}
+.vicon{
+	width:60px;
+	height:40px;
+	font-weight:bold;
+}
+.menu{
+	
+	width:65%;
+	display:flex;
+	list-style:none;
+}
+.menu li{
+	margin-right:20px;
+}
+.menu li a{
+	font-size:19px;
+	color:#ffff;
+	text-decoration:none;
+	transition:0.3s ease;
+}
+.menu li a:hover{
+	color:#aeeb34;
+}
+.search{
+	display:flex;
+	align-items:center;
+	margin:0px;
+}
+.search form{
+	display:flex;
+	margin:0;
+}
+.search input{
+	padding:10px;
+	border:1px solid #ddd;
+	border-radius:10px;
+	margin-right:10px;
+	font-size:16px;
+	}
+.search input:hover{
+	border:3px solid #801772;
+}
+.search button img{
+	width:15px;
+	height:15px;
+}
+.search button{
+	padding:10px;
+	background-color: #ddd;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+.search button img:hover{
+	background-color:#801772;
+}
+main{
+	background-image: url("fashion_class.jpg");
+	background-repeat:repeat-x;
+	background-size:cover;
+	margin-top:20px;
+}
+
+h1{font-size:26px;
+line-height: 32px;
+color:#0e0e0f;
+font-family:roboto;
+font-weight:600;
+text-transform:uppercase;}
+
+h2{
+	
+	font-size:22px;
+}
+p{
+font-size:14px;
+line-height:18px;
+color:#0e0e0f;
+font-family:roboto;	
+}
+
+.footer{
+	background-color:#02000a;
+    padding:70px 0;
+	width:100%;
+}
+
+.container{ 
+max-width:1170px;
+margin:auto;
+}
+.content{
+	display:flex;
+	flex-wrap:wrap;
+	padding-left:5px;
+	color:#ffffff;
+}
+ul{
+	list-style:none;
+}
+.column{
+	width:16%;
+	padding:0 15px;
+}
+.column h3{
+	font-size:18px;
+	color:#ffffff;
+	margin-bottom:30px;
+	font-weight:500;
+	position:relative;
+}
+.column h3::before{
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	background-color:#e91e63;
+	height:2px;
+	box-sizing:border-box;
+	width:80px;
+	
+}
+.column ul li{
+	margin:10px;
+}
+.column ul li a{
+	font-size:15px;
+	text-decoration:none;
+	font-weight:300;
+	color:#ffffff;
+	display:block;
+	transition:0.3s ease;
+}
+
+.column ul li a:hover{
+	color:#74cc83;
+	padding-left:10px;
+}
+
+
+ .socials a{
+	display:flex;
+	text-decoration:none;
+	padding-bottom:20px;
+	padding-left:10px;
+	height:40px;
+	width:40px;
+	color: rgba(255, 255, 255, 0.9);
+}
+.footer p{
+	color:#ffffff;
+}
+	
